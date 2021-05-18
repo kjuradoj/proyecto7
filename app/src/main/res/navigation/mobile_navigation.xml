@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navegaciondrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.navegaciondrawer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.navegaciondrawer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/imagen1Fragment"
+        android:name="com.example.navegaciondrawer.Imagen1Fragment"
+        android:label="fragment_imagen1"
+        tools:layout="@layout/fragment_imagen1" />
+    <fragment
+        android:id="@+id/imagen2Fragment"
+        android:name="com.example.navegaciondrawer.Imagen2Fragment"
+        android:label="fragment_imagen2"
+        tools:layout="@layout/fragment_imagen2" />
+    <fragment
+        android:id="@+id/imagen3Fragment"
+        android:name="com.example.navegaciondrawer.Imagen3Fragment"
+        android:label="fragment_imagen3"
+        tools:layout="@layout/fragment_imagen3" />
+    <fragment
+        android:id="@+id/operacionesFragment"
+        android:name="com.example.navegaciondrawer.OperacionesFragment"
+        android:label="fragment_operaciones"
+        tools:layout="@layout/fragment_operaciones" />
+    <fragment
+        android:id="@+id/sacsachuamanFragment"
+        android:name="com.example.navegaciondrawer.SacsachuamanFragment"
+        android:label="fragment_sacsachuaman"
+        tools:layout="@layout/fragment_sacsachuaman" />
+    <fragment
+        android:id="@+id/musicaFragment"
+        android:name="com.example.navegaciondrawer.MusicaFragment"
+        android:label="fragment_musica"
+        tools:layout="@layout/fragment_musica" />
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.example.navegaciondrawer.WebFragment"
+        android:label="fragment_web"
+        tools:layout="@layout/fragment_web" />
+    <fragment
+        android:id="@+id/busquedaWebFragment"
+        android:name="com.example.navegaciondrawer.BusquedaWebFragment"
+        android:label="fragment_busqueda_web"
+        tools:layout="@layout/fragment_busqueda_web" />
+    <fragment
+        android:id="@+id/plusFragment"
+        android:name="com.example.navegaciondrawer.PlusFragment"
+        android:label="fragment_plus"
+        tools:layout="@layout/fragment_plus" />
+</navigation>
